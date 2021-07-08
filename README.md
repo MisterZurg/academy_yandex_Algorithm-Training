@@ -13,15 +13,26 @@
 [Академия Яндекса](https://academy.yandex.ru/)
 
 ## Syllabus
-<li>[Лекция «Сложность, тестирование, особые случаи».]()
-<li>[Лекция «Линейный поиск».]()
-<li>[Лекция «Множества»]()
-<li>[Лекция «Словари и сортировка подсчётом»]()
-<li>[Разбор домашнего задания (за 2 и 4 июня)]()
-<li>[Лекция «Префиксные суммы и два указателя»]()
-<li>[Лекция «Бинарный поиск»]()
-<li>[Разбор домашнего задания (за 7 и 9 июня)]()
-<li>[Лекция «Сортировка событий»]()
-<li>[Лекция «Деревья»]()
-<li>[Разбор домашнего задания (за 15 и 16 июня)]()
-<li>[Разбор домашнего задания (за 21 и 23 июня)]()
+[Лекция «Сложность, тестирование, особые случаи».](https://www.youtube.com/watch?v=QLhqYNsPIVo)
+
+[Лекция «Линейный поиск».](https://www.youtube.com/watch?v=SKwB41FrGgU)
+
+[Лекция «Множества»](https://www.youtube.com/watch?v=PUpmV2ieIHA)
+
+[Лекция «Словари и сортировка подсчётом»](https://www.youtube.com/watch?v=Nb5mW1yWVSs)
+
+[Разбор домашнего задания (за 2 и 4 июня)](https://www.youtube.com/watch?v=mdJdB7On4AM)
+
+[Лекция «Префиксные суммы и два указателя»](https://www.youtube.com/watch?v=de28y8Dcvkg)
+
+[Лекция «Бинарный поиск»](https://www.youtube.com/watch?v=YENpZexHfuk)
+
+[Разбор домашнего задания (за 7 и 9 июня)](https://www.youtube.com/watch?v=J2C6rDqe8mQ)
+
+[Лекция «Сортировка событий»](https://www.youtube.com/watch?v=hGixDBO-p6Q)
+
+[Лекция «Деревья»](https://www.youtube.com/watch?v=lEJzqHgyels)
+
+[Разбор домашнего задания (за 15 и 16 июня)](https://www.youtube.com/watch?v=fqsuy5rwZhk)
+
+[Разбор домашнего задания (за 21 и 23 июня)](https://www.youtube.com/watch?v=5lfkBD4dnGM)
