@@ -17,6 +17,7 @@
 Формат вывода
 Выведите одно число — количество деталей, которое может получиться по такой технологии.
 */
+// WA TC : 13
 package main
 
 import (
@@ -25,20 +26,13 @@ import (
 )
 
 func main() {
-	var N, K, M int8
+	var N, K, M int
 	fmt.Scan(&N, &K, &M)
 	fmt.Println(process(N, K, M))
 }
 
-func process(N, K, M int8) int8 {
-	var details int8 = 0
-	for N >= K {
-		templateCount := int8(math.Floor(float64(N / M))) // число заготовок
-		fmt.Println(templateCount)
-		details += templateCount * int8(math.Floor(float64(K/M))) // число деталей
-		fmt.Println(details)
-		N -= templateCount * (K / M) * M
-		fmt.Println(N)
-	}
-	return details
+func process(N, K, M int) int {
+	i := K - K%M
+	N = int(math.Abs(float64(N-K+i))) - i
+	return (N/i + 1) * (K / M)
 }

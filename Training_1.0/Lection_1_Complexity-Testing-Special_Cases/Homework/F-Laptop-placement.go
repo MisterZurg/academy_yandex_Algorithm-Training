@@ -14,54 +14,58 @@
 */
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	//var lapW1, lapH1, lapW2, lapH2 int8 // Range:
-	//fmt.Scan(&lapW1, &lapH1, &lapW2, &lapH2)
-	fmt.Println(tableParams(10, 2, 2, 10))
+	var lapW1, lapH1, lapW2, lapH2 int // Range:
+	fmt.Scan(&lapW1, &lapH1, &lapW2, &lapH2)
+	fmt.Println(tableParams(lapW1, lapH1, lapW2, lapH2))
+	//fmt.Println(tableParams(10, 2, 2, 10))
 }
 
-func tableParams(lapW1, lapH1, lapW2, lapH2 int8) (tbW, tbH int8) {
-	width := make([]int8, 4)
-	height := [4]int8{
-		lapH1 + lapW2,
-		lapH1 + lapH2,
-		lapW1 + lapW2,
-		lapW1 + lapH2,
-	}
-	if lapW1 < lapH2 {
-		width[0] = lapW1
-	} else {
-		width[0] = lapH2
-	}
+func tableParams(a, b, c, d int) (tbW, tbH int) {
+	m := [4]int{}
+	n := [4]int{}
 
-	if lapW1 < lapW2 {
-		width[1] = lapW1
+	if a > d {
+		m[0] = a
 	} else {
-		width[1] = lapW2
+		m[0] = d
 	}
+	n[0] = b + c
 
-	if lapH1 < lapW2 {
-		width[2] = lapH1
+	if a > c {
+		m[1] = a
 	} else {
-		width[2] = lapW2
+		m[1] = c
 	}
+	n[1] = b + d
 
-	if lapH1 < lapH2 {
-		width[3] = lapH1
+	if b > c {
+		m[2] = b
 	} else {
-		width[3] = lapH2
+		m[2] = c
 	}
-	min := width[0] * height[0]
-	tbW = width[0]
-	tbH = height[0]
-	for i := 1; i < 4; i++ {
-		if min > width[i]*height[i] {
-			min = width[i] * height[i]
-			tbW = width[i]
-			tbH = height[i]
+	n[2] = a + d
+
+	if b > d {
+		m[3] = b
+	} else {
+		m[3] = d
+	}
+	n[3] = a + c
+
+	min := 9223372036854775807 // math.MaxInt
+
+	var height, width int
+	for i := 0; i < 4; i++ {
+		if m[i]*n[i] < min {
+			min = m[i] * n[i]
+			height = m[i]
+			width = n[i]
 		}
 	}
-	return tbW, tbH
+	return height, width
 }

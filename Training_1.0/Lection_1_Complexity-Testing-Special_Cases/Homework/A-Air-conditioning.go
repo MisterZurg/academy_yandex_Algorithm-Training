@@ -64,9 +64,11 @@ freeze
 
 */
 package main
+
 import "fmt"
-func main()  {
-	var troom , tcond int
+
+func main() {
+	var troom, tcond int
 	fmt.Scan(&troom, &tcond)
 	var mode string
 	fmt.Scan(&mode)
@@ -88,11 +90,11 @@ func airConditioning(troom, tcond int, mode string) int {
 			return tcond
 		}
 	case "auto":
-			return tcond
+		return tcond
 	case "fan":
 		return troom
 	default:
 		fmt.Println("UnexceptedAirConditioningException")
-		return 0;
+		return 0
 	}
 }

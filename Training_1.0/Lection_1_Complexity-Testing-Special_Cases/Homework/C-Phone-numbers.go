@@ -17,7 +17,7 @@
 
 Формат вывода
 Для каждого телефонного номера в адресной книге выведите YES (заглавными буквами), если он совпадает с тем телефонным номером, который Вася хочет добавить в адресную книгу или NO (заглавными буквами) в противном случае.
- */
+*/
 package main
 
 import (
@@ -31,10 +31,10 @@ func main() {
 	// fmt.Println(parseNumber(willingToAddThisNumber))
 	phonebook := make([]string, 3)
 
-	for phoneInd:= range phonebook{
+	for phoneInd := range phonebook {
 		fmt.Scan(&phonebook[phoneInd])
 	}
-	for _, phone := range phonebook{
+	for _, phone := range phonebook {
 		cadAddPhone(willingToAddThisNumber, phone)
 	}
 
@@ -51,12 +51,12 @@ func cadAddPhone(phoneNumber, phoneFromBook string) {
 	}
 }
 
-func parseNumber(phoneNumber string) string{
+func parseNumber(phoneNumber string) string {
 	// Remove -
-	number:= strings.ReplaceAll(phoneNumber,"-","")
+	number := strings.ReplaceAll(phoneNumber, "-", "")
 	// Remove ( )
-	number = strings.Replace(number,"(","",1)
-	number = strings.Replace(number,")","",1)
+	number = strings.Replace(number, "(", "", 1)
+	number = strings.Replace(number, ")", "", 1)
 	// fmt.Println(number)
 	// +7<код><номер>
 	if len(number) == 12 {

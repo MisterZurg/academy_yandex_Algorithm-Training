@@ -34,7 +34,7 @@ func equationSolver(a, b, c int) {
 		fmt.Println("MANY SOLUTIONS")
 		return
 	} else {
-		fmt.Println(c*c / a - b/ a)
+		fmt.Println(c*c/a - b/a)
 		return
 	}
 }
