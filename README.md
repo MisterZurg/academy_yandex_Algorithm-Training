@@ -47,10 +47,10 @@
 - [«Как и зачем изучать алгоритмы»](https://www.youtube.com/watch?v=o3IXpX8wxjQ&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
 - [Лекция 1: «Стеки»](https://www.youtube.com/watch?v=ZUpImO_2hmA&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
 - [Лекция 2: «Очереди, деки и приоритетные очереди»](https://www.youtube.com/watch?v=sAyOhkMZae4&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
-- Разбор решений
-- Динамическое программирование с одним параметром
-- Разбор решений
-- Динамическое программирование с двумя параметрами
+- [Разбор решений](https://www.youtube.com/watch?v=O26-2-94BDk&t=3099s&ab_channel=%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0)
+- [Лекция 3: «Динамическое программирование с одним параметром»](https://youtu.be/H7lu6h8H9-4)
+- [Разбор решений](https://youtube.com/live/x2lyWma-Rms?feature=share)
+- [Лекция 4: «Динамическое программирование с двумя параметрами»](https://youtube.com/live/U8gzm92fprI?feature=share)
 - Обход в глубину
 - Разбор решений
 - Обход в ширину

@@ -25,16 +25,23 @@ func (q *Queue) Enqueue(item interface{}) {
 }
 
 // Dequue
-func (q *Queue) PopFront() int {
+func (q *Queue) PopFront() (int, error) {
+	if q.isEmpty() {
+		return 0, fmt.Errorf("error")
+	}
 	front := (*q).q.Front()
 	// This will remove the allocated memory and avoid memory leaks
 	(*q).q.Remove(front)
-	return front.Value.(int)
+	return front.Value.(int), nil
 }
 
 // Dequue
-func (q *Queue) getFront() int {
-	return (*q).q.Front().Value.(int)
+func (q *Queue) getFront() (int, error) {
+	if q.isEmpty() {
+		return 0, fmt.Errorf("error")
+	}
+
+	return (*q).q.Front().Value.(int), nil
 }
 
 func (q *Queue) isEmpty() bool {
@@ -46,12 +53,12 @@ func (q *Queue) Size() int {
 }
 
 func (q *Queue) Clear() {
-	q = NewQueue()
+	*q = *NewQueue()
 }
 
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
-	q := Queue{}
+	q := NewQueue()
 	for scanner.Scan() {
 		line := scanner.Text()
 		words := strings.Split(line, " ")
@@ -61,11 +68,19 @@ func main() {
 			q.Enqueue(n)
 			fmt.Println("ok")
 		case "pop":
-			top := q.PopFront()
-			fmt.Println(top)
+			top, err := q.PopFront()
+			if err != nil {
+				fmt.Println(err)
+			} else {
+				fmt.Println(top)
+			}
 		case "front":
-			top := q.getFront()
-			fmt.Println(top)
+			top, err := q.getFront()
+			if err != nil {
+				fmt.Println(err)
+			} else {
+				fmt.Println(top)
+			}
 		case "size":
 			fmt.Println(q.Size())
 		case "clear":
