@@ -55,3 +55,8 @@
 - Разбор решений
 - Обход в ширину
 - Разбор решений
+
+#### Accomplishments
+<p align="center"> 
+    <img align="center"  src="pics/AT-3-Division-B.jpg"/>
+</p> 
