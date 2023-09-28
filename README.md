@@ -56,6 +56,10 @@
 - Обход в ширину
 - Разбор решений
 
+### Тренировки по алгоритмам 4.0
+- TBA
+
+
 #### Accomplishments
 <p align="center"> 
     <img align="center"  src="pics/AT-3-Division-B.jpg"/>
