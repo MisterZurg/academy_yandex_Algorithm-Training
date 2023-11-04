@@ -19,8 +19,8 @@
 
 > [!IMPORTANT]
 > В этом репозитории я храню исключительно Алгоритмы, возможно вы ищите:
-> - [Тренировки по Machine Learning]() TBC
-> - [Тренировки по DevOps]() TBC
+> - [Тренировки по DevOps](https://github.com/MisterZurg/academy_yandex_DevOps-Training)
+> - [Тренировки по Machine Learning](https://github.com/MisterZurg/academy_yandex_Machine-Learning-Training)
 
 ## Syllabus
 ### Тренировки по алгоритмам 1.0
