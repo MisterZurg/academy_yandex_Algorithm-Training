@@ -5,6 +5,11 @@
 
 ⌨️ Solutions to Academy Yandex ["Тренировки по алгоритмам"](https://yandex.ru/yaintern/algorithm-training)
 
+> [!IMPORTANT]
+> В этом репозитории я храню исключительно Алгоритмы, возможно вы ищите:
+> - [Тренировки по DevOps](https://github.com/MisterZurg/academy_yandex_DevOps-Training)
+> - [Тренировки по Machine Learning](https://github.com/MisterZurg/academy_yandex_Machine-Learning-Training)
+
 ## About the training
 8 лекций с домашними заданиями на платформе Яндекс.Контест и ответы на ваши вопросы;
 4 занятия с проверкой домашних заданий, разбором решений и популярных ошибок.
@@ -16,11 +21,6 @@
 
 ### Offered by
 [Академия Яндекса](https://academy.yandex.ru/)
-
-> [!IMPORTANT]
-> В этом репозитории я храню исключительно Алгоритмы, возможно вы ищите:
-> - [Тренировки по DevOps](https://github.com/MisterZurg/academy_yandex_DevOps-Training)
-> - [Тренировки по Machine Learning](https://github.com/MisterZurg/academy_yandex_Machine-Learning-Training)
 
 ## Syllabus
 ### Тренировки по алгоритмам 1.0
