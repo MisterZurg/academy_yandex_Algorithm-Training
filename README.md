@@ -10,9 +10,17 @@
 > - [Тренировки по DevOps](https://github.com/MisterZurg/academy_yandex_DevOps-Training)
 > - [Тренировки по Machine Learning](https://github.com/MisterZurg/academy_yandex_Machine-Learning-Training)
 
+> [!WARNING]  
+> Сейчас, в репе беспорядок, который будет периодически улучшаться, с пополнением решений на
+> - Go
+> - Rust
+> - Zig
+
+> [!CAUTION]
+> Одним из побочных эффектов чрезмерного употребления [Python](https://lurkmore.online/Python) является так называемый [Butthurt](https://lurkmore.online/Butthurt).
+
 ## About the training
-8 лекций с домашними заданиями на платформе Яндекс.Контест и ответы на ваши вопросы;
-4 занятия с проверкой домашних заданий, разбором решений и популярных ошибок.
+Лекции с [домашними заданиями](https://www.youtube.com/shorts/mpLvLjkWnio) на платформе Яндекс.Контест и ответы на ваши вопросы; занятия с проверкой домашних заданий, разбором решений и популярных ошибок.
 
 ### Instructors
 [Михаил Густокашин](https://codeforces.com/profile/gustokashin?locale=ru)
