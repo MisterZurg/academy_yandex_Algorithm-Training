@@ -18,7 +18,7 @@ func main() {
 		fmt.Scan(&day, &hour, &minute, &rid, &event)
 
 		switch event {
-		case "A":
+		case "src":
 			eventType = 0
 		case "C":
 			eventType = 1

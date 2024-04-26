@@ -51,9 +51,9 @@ while
 for
 program sum;
 var
-  A, B: integer;
+  src, B: integer;
 begin
-  read(A, b);
+  read(src, b);
   writeln(a + b);
 end.
 Вывод

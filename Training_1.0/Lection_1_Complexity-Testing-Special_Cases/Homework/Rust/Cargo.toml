@@ -1,0 +1,7 @@
+[workspace]
+
+# cargo new <PROBLEM_NAME>
+members = [
+    "A-Air-conditioning",
+    # "B-Triangle",
+]
