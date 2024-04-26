@@ -2,6 +2,7 @@
 
 # cargo new <PROBLEM_NAME>
 members = [
-    "A-Air-conditioning",
-    # "B-Triangle",
+    "a-air-conditioning",
+    "b-triangle",
+    "c-phone-numbers"
 ]
