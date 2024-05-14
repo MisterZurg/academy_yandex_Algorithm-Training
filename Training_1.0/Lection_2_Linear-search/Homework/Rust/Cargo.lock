@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "a-is-the-list-growing"
 version = "0.1.0"
+
+[[package]]
+name = "b-determine-the-type-of-sequence"
+version = "0.1.0"

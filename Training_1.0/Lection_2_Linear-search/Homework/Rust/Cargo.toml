@@ -3,4 +3,5 @@
 # cargo new <PROBLEM_NAME>
 members = [
     "a-is-the-list-growing",
+    "b-determine-the-type-of-sequence",
 ]

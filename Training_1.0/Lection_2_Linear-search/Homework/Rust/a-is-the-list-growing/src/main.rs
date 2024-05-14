@@ -1,6 +1,6 @@
 use std::io::BufRead;
 
-fn isIncreasing(list : Vec<i32>) -> bool {
+fn is_increasing(list : Vec<i32>) -> bool {
     // Corner case
     if list.len() == 1 {
         return true;
@@ -32,14 +32,14 @@ fn read_vector_on_one_line() -> Vec<i32> {
 fn main() {
     let vc = read_vector_on_one_line();
 
-    println!("{}", if isIncreasing(vc) {"YES"} else {"NO"});
+    println!("{}", if is_increasing(vc) {"YES"} else {"NO"});
 }
 
 
 // cargo test -p a-is-the-list-growing
 #[test]
 fn it_works() {
-    assert_eq!(isIncreasing(vec![1, 7, 9]), true);
-    assert_eq!(isIncreasing(vec![1, 9, 7]), false);
-    assert_eq!(isIncreasing(vec![2, 2, 2]), false);
+    assert_eq!(is_increasing(vec![1, 7, 9]), true);
+    assert_eq!(is_increasing(vec![1, 9, 7]), false);
+    assert_eq!(is_increasing(vec![2, 2, 2]), false);
 }
