@@ -1,0 +1,6 @@
+[workspace]
+
+# cargo new <PROBLEM_NAME>
+members = [
+    "a-is-the-list-growing",
+]
