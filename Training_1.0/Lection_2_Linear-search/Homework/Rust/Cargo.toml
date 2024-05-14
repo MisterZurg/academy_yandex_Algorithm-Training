@@ -4,4 +4,5 @@
 members = [
     "a-is-the-list-growing",
     "b-determine-the-type-of-sequence",
+    "c-nearest-number",
 ]
