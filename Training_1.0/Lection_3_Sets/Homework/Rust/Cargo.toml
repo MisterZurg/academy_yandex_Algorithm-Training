@@ -1,4 +1,8 @@
 [workspace]
 
 # cargo new <PROBLEM_NAME>
-members = ["a-number-of-different-numbers", "b-sets-intersection"]
+members = [
+    "a-number-of-different-numbers",
+    "b-sets-intersection",
+    "d-number-of-words",
+]

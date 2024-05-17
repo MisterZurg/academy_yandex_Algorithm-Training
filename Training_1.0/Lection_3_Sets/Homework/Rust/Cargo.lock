@@ -9,3 +9,7 @@ version = "0.1.0"
 [[package]]
 name = "b-sets-intersection"
 version = "0.1.0"
+
+[[package]]
+name = "d-number-of-words"
+version = "0.1.0"
