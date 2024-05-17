@@ -1,0 +1,4 @@
+[workspace]
+
+# cargo new <PROBLEM_NAME>
+members = ["a-dictionary-of-synonyms"]

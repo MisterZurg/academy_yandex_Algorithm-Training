@@ -3,7 +3,6 @@ use std::io;
 use std::io::{BufRead, BufReader};
 
 fn count_unique_words(lines: Vec<String>) -> usize {
-    // let words = line.split_whitespace();
     let mut unique_words: HashSet<String> = HashSet::new();
 
     for line in lines {
